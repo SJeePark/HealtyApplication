@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 선택되지 않은 상태 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F2F2F2" /> <!-- 비활성화 상태 배경색 -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>

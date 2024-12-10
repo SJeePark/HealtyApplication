@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="bottom"
+    android:layout_marginBottom="40sp"
+    android:background="@drawable/moveo1">
+
+    <EditText
+        android:id="@+id/mainId"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="ID를 입력해주세요."
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/mainPw"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Password를 입력해주세요."
+        android:textSize="20sp"
+        android:password="true"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/mainLoginB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textSize="15sp"
+            android:backgroundTint="#2c5bd2"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/mainJoinB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="회원가입"
+            android:textSize="15sp"
+            android:backgroundTint="#2C5BD2"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
